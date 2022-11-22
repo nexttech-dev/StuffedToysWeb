@@ -1,0 +1,16 @@
+<?php
+$hostname = "localhost";
+$username = "root";
+$password = "";
+$dbname = "users";
+
+$conn = mysqli_connect($hostname, $username, $password, $dbname);
+if (!$conn) {
+  echo "Database connection error" . mysqli_connect_error();
+}
+
+$backEndConn = mysqli_connect($hostname, $username, $password);
+if (!$backEndConn) {
+  die("Connection failed: " . $conn->connect_error);
+  // echo "Internal Database Failure " . mysqli_connect_error();
+}

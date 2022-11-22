@@ -1,0 +1,93 @@
+#contextMenu,
+#popUpForRemeberence {
+  position: absolute;
+  display: none;
+  background-color: white;
+  /* border: 1px solid grey; */
+  border-radius: 5px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
+}
+#popUpForRemeberence {
+  position: relative;
+  clear: both;
+  display: none;
+  background-color: white;
+  /* border: 1px solid grey; */
+  border-radius: 5px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
+}
+.contextMenuDropDown {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+
+.contextMenuDropDown button {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  height: 30px;
+  cursor: pointer;
+}
+.contextMenuDropDown button:hover {
+  background-color: antiquewhite;
+}
+
+.sheetPopElements input {
+  padding: 4px;
+  border-radius: 5px;
+}
+.sheetPopElements .renameButton {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  /* margin-left: 2%; */
+}
+
+.arrow {
+  width: 12px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  top: 6px;
+  right: -1px;
+}
+.arrow .outer {
+  width: 0;
+  height: 0;
+  border-right: 20px solid #000000;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.arrow .inner {
+  width: 0;
+  height: 0;
+  border-right: 20px solid #ffffff;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
+.popUpForRemeberenceContent {
+  float: left;
+  width: 300px;
+  height: auto;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 6px 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
